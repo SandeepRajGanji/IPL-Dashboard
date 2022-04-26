@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.match-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 30%;
+  flex-grow: 1;
+  margin: 10px;
+  padding: 20px;
+}
+.match-card-logo {
+  width: 150px;
+  height: 150px;
+}
+.lost-result {
+  color: #e31a1a;
+  font-weight: bold;
+}
+.won-result {
+  color: #18ed66;
+  font-weight: bold;
+}
+.match-card-name {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.match-card-result {
+  font-size: 16x;
+  text-align: center;
+  margin-top: 10px;
+  width: 70%;
+}
+@media screen and (max-width: 576px) {
+  .match-card {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+  }
+  .match-card-logo {
+    width: 100px;
+    height: 100px;
+  }
+}

@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.match-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  list-style: none;
+  width: 90%;
+  max-width: 1140px;
+  padding: 0px;
+}
+.team-matches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px 20px 20px;
+
+  min-height: 100vh;
+}
+
+.rcb {
+  background: linear-gradient(to top, #1e293b, #a4261d);
+}
+
+.kkr {
+  background: linear-gradient(to top, #1e293b, #5755a7);
+}
+
+.kxp {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+
+.csk {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+}
+
+.rr {
+  background: linear-gradient(to top, #1e293b, #da237b);
+}
+
+.mi {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}
+
+.srh {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+
+.dc {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+}
+.team-banner {
+  max-width: 1140px;
+  width: 90%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.latest-matches-container {
+  max-width: 1140px;
+  width: 90%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+@media screen and (max-width: 576px) {
+  .team-banner {
+    max-width: 576px;
+  }
+  .team-matches-container {
+    padding: 10px;
+  }
+}

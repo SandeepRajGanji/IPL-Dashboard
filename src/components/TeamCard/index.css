@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.team-logo {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.team-name {
+  font-size: 20px;
+  color: #fffffff3;
+  text-align: center;
+  width: 250px;
+}
+.link-item {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  list-style: none;
+}
+
+.team-card {
+  display: flex;
+  align-items: center;
+
+  height: 150px;
+  background-color: #ffffff33;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 10px;
+  border: 1px solid #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+  .team-card {
+    background-color: #ffffff33;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    max-width: 576px;
+    margin: 10px;
+    border: 1px solid #ffffff;
+  }
+  .team-name {
+    width: 150px;
+    font-size: 16px;
+  }
+}
